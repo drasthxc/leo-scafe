@@ -7,7 +7,7 @@
 
 .topnav {
     overflow: hidden;
-    background-color: rgb(141, 82, 82);
+    background-color:#764223;
   }
   
   .topnav a {
@@ -26,7 +26,7 @@
   }
   
   .topnav a.active {
-    background-color: rgb(164, 98, 98);
+    background-color:#A87B61;
     color: white;
   }
   
@@ -87,6 +87,7 @@ flex-wrap: wrap;
     font-size: 50px;
     line-height: 54px;
     width: 100%;
+  color: #8A4F2D;
 
 
 }
@@ -111,6 +112,7 @@ flex-wrap: wrap;
   width: 100%;
   margin-top: 20px;
   margin-bottom: 10px;
+  color: #8A4F2D;
 
 
 }
@@ -132,7 +134,7 @@ width: 100%;
   font-size: 16px;
   color: #000000;
   line-height: 24px;
-  background-color: #ffddca;
+  background-color: #DEAB90;
   padding: 15px;
   margin-top: 9px;
   border-radius: 5px;
@@ -262,63 +264,67 @@ display: none;
       }
       
 
+      body {
 
+        background-color: #3F1D07;
+      
+      }
 
 /*ipad mini*/
 @media only screen and (min-width: 768px ) {
    
 
+
+  .topnav {
+    overflow: hidden;
+    background-color:#764223;
+  }
   
-.topnav {
-  overflow: hidden;
-  background-color: rgb(141, 82, 82);
-}
-
-.topnav a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-.topnav a.active {
-  background-color: rgb(164, 98, 98);
-  color: white;
-}
-
-.topnav .icon {
-  display: none;
-}
-
-@media screen and (max-width: 600px) {
-  .topnav a:not(:first-child) {display: none;}
-  .topnav a.icon {
-    float: right;
+  .topnav a {
+    float: left;
     display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
   }
-}
-
-@media screen and (max-width: 600px) {
-  .topnav.responsive {position: relative;}
-  .topnav.responsive .icon {
-    position: absolute;
-    right: 0;
-    top: 0;
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
   }
-  .topnav.responsive a {
-    float: none;
-    display: block;
-    text-align: left;
+  
+  .topnav a.active {
+    background-color:#A87B61;
+    color: white;
   }
-}
+  
+  .topnav .icon {
+    display: none;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+  }
 
 header .logo{
 
@@ -378,6 +384,7 @@ margin-top: 20px;
 margin-bottom: 10px;
 
 
+
 }
 
 
@@ -397,7 +404,7 @@ width: 100%;
   font-size: 16px;
   color: #000000;
   line-height: 24px;
-  background-color: #ffddca;
+  background-color: #DEAB90;
   padding: 15px;
   margin-top: 9px;
   border-radius: 5px;
@@ -438,8 +445,8 @@ display: none;
  
 
      .content .textBox h1{
+      color: #8A4F2D;
 
-      color: rgb(0, 0, 0);
       font-size: 2.6em;
       font-weight: 700;
       text-align: center;
@@ -475,7 +482,11 @@ display: none;
 
     }
     
+    body {
 
+      background-color: #3F1D07;
+    
+    }
 
 }
 
@@ -500,57 +511,7 @@ font-family: 'Poppins', sans-serif;
 
 
 
-  
- .topnav {
-  overflow: hidden;
-  background-color: rgb(141, 82, 82);
-}
 
-.topnav a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-.topnav a.active {
-  background-color: rgb(164, 98, 98);
-  color: white;
-}
-
-.topnav .icon {
-  display: none;
-}
-
-@media screen and (max-width: 600px) {
-  .topnav a:not(:first-child) {display: none;}
-  .topnav a.icon {
-    float: right;
-    display: block;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .topnav.responsive {position: relative;}
-  .topnav.responsive .icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-  .topnav.responsive a {
-    float: none;
-    display: block;
-    text-align: left;
-  }
-}
 
 header .logo{
 
@@ -622,7 +583,7 @@ margin-bottom: 50px;
 
 body {
 
- background-color:  #704241    ;
+  background-color: #3F1D07;
 
 }
 .content .textBox p{
@@ -631,7 +592,7 @@ body {
   font-size: 16px;
   color: #000000;
   line-height: 24px;
-  background-color: #ffddca;
+  background-color: #DEAB90;
   padding: 15px;
   margin-top: 9px;
   border-radius: 5px;
@@ -650,8 +611,8 @@ body {
  
 
      .content .textBox h1{
+      color: #8A4F2D;
 
-      color: rgb(0, 0, 0);
       font-size: 2.6em;
       font-weight: 700;
       text-align: center;
@@ -715,11 +676,11 @@ top: 0;
 Left: 0;
 right: 0;
 width: 100%;
-padding: 20px 100px;
+padding: 5px 100px;
 display: flex;
 justify-content: space-between;
 align-items: center;
-background-color: #ddadaf;
+background-color: #764223;
 z-index: 8;
 
 }
@@ -734,58 +695,56 @@ display: block;
 
 
  
-
 .topnav {
-    overflow: hidden;
-    background-color: rgb(141, 82, 82);
-  }
-  
-  .topnav a {
-    float: left;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 24px 30px;
-    text-decoration: none;
-    font-size: 17px;
-  }
-  
-  .topnav a:hover {
-    background-color: #ddd;
-    color: black;
-  }
-  
-  .topnav a.active {
-    background-color: rgb(164, 98, 98);
-    color: white;
-  }
-  
-  .topnav .icon {
-    display: none;
-  }
-  
-  @media screen and (max-width: 600px) {
-    .topnav a:not(:first-child) {display: none;}
-    .topnav a.icon {
-      float: right;
-      display: block;
-    }
-  }
-  
-  @media screen and (max-width: 600px) {
-    .topnav.responsive {position: relative;}
-    .topnav.responsive .icon {
-      position: absolute;
-      right: 0;
-      top: 0;
-    }
-    .topnav.responsive a {
-      float: none;
-      display: block;
-      text-align: left;
-    }
-  }
+  overflow: hidden;
+  background-color: #523624;
+}
 
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 24px 30px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color:#A87B61;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
 
 
 
@@ -808,8 +767,8 @@ display: block;
 }
 
 .content .textBox h2
-{
-color: #000000;
+{  color: #8A4F2D;
+
 font-size: 4em;
 Line-height: 1.4em;
  font-weight: 500;
