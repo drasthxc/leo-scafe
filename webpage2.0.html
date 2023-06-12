@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+
+<tel lang="en">
+
+
+<head>
+
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<link rel="stylesheet" href="styles.css">
+
+
+<title>Leo's Cafe
+</title>
+
+
+</head>
+
+<body>
+
+   
+
+<section>
+    <div class="circle">  </div>
+
+<header>
+
+ 
+    <a href="#"><img src="logo2.png" class="logo"></a>
+    
+
+   
+
+    <div class="topnav" id="myTopnav">
+
+
+  <a href="#" class="active">Home </a> </li>
+    
+   <a href="file:///C:/Users/MICHELLLE/Downloads/inquiry%202,0/menu.html">Menu </a> 
+   <a href="file:///C:/Users/MICHELLLE/Downloads/inquiry%202,0/about%20us.html"> About us  </a> 
+   <a href="file:///C:/Users/MICHELLLE/Downloads/inquiry%202,0/contacts.html">Contact </a> 
+   <a href="file:///C:/Users/MICHELLLE/Downloads/inquiry%202,0/careers2.html"> Careers </a>
+   <a href="file:///C:/Users/MICHELLLE/Downloads/inquiry%202,0/contacts.html">Delivery </a> 
+   <a href="file:///C:/Users/MICHELLLE/Downloads/inquiry%202,0/careers2.html"> FAQ </a>
+         
+            
+   
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+
+      </a>
+    </div>
+
+</header>
+
+
+
+<div class="content">
+    <div class="textBox">
+      
+      <h2 id="animated-text">It’s not just a Cafe It’s <span> Leo’s Cafe</span> </h2>
+    <p style="text-indent: 50px;"> Welcome to Leo’s Café, your delightful sanctuary where memorable moments and delectable flavors intertwine! </p>
+<br>
+  <p style="text-indent: 50px;">  Experience pure delight where every sip and bite is crafted with love and care. Unwind and savor the perfect atmosphere, be it a quick on-the-go coffee or a leisurely brunch with friends.</p>
+  <div id="animation-container">
+       <img id="coffee-img-1" class="coffee-img" src="coffee3-removebg-preview.png" alt="Cup of coffee">
+      <img id="coffee-img-2" class="coffee-img" src="pasta2.png" alt="Cup of coffee">
+     
+  </div>
+  
+  </div>
+
+    <div class="imgbox">
+        <img src="coffee3-removebg-preview.png" class="coffeee">
+
+
+    </div>
+    </div>
+
+
+
+   
+
+    <ul class="coffee">
+
+        <li><img src="coffee3-removebg-preview.png" onclick="imgSlider('img1.png');changecirclecolor('brown')"> </li>
+        <li><img src="pasta2.png" onclick="imgSlider('img3.png');changecirclecolor('#954535')"> </li>
+        <li><img src="cake.png" onclick="imgSlider('img2.png');changecirclecolor('#9C6644')" > </li>
+
+        
+        </ul>
+
+
+ 
+
+<script type="text/javascript">
+    function imgSlider(anything){
+        document.querySelector('.coffeee').src = anything;
+    }
+
+    function changecirclecolor(color){
+        const circle = document.querySelector('.circle');
+        circle.style.background = color;
+    }
+
+    function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+
+
+
+/* animation 
+
+const animatedText = document.getElementById('animated-text');
+const coffeeImg = document.getElementById('coffee-img');
+
+
+
+animatedText.addEventListener('click', () => {
+  animatedText.style.animation = 'slide-in 1s forwards';
+
+  setTimeout(() => {
+    coffeeImg.style.animation = 'spew-out 1s ease-in-out forwards';
+    coffeeImg.style.opacity = '1';
+  }, 500);
+
+  setTimeout(() => {
+    coffeeImg.style.animation = '';
+    coffeeImg.style.opacity = '0';
+  }, 2500);
+
+
+});
+*/
+
+
+
+const animatedText = document.getElementById('animated-text');
+const coffeeImg1 = document.getElementById('coffee-img-1');
+const coffeeImg2 = document.getElementById('coffee-img-2');
+let clickCount = 0;
+
+animatedText.addEventListener('click', () => {
+  clickCount++;
+
+  if (clickCount === 1) {
+    animatedText.style.animation = 'slide-in 1s forwards';
+    coffeeImg1.style.opacity = '1';
+    coffeeImg1.style.animation = 'spew-out 1s ease-in-out forwards';
+
+    // Hide coffeeImg1 after 3000 milliseconds (3 seconds)
+    setTimeout(() => {
+      coffeeImg1.style.opacity = '0';
+      coffeeImg1.style.animation = '';
+    }, 3000);
+  } else if (clickCount === 2) {
+    animatedText.style.animation = ''; // Reset the animation for the header
+    coffeeImg1.style.opacity = '0'; // Hide previous image
+    coffeeImg1.style.animation = ''; // Reset the animation for previous image
+
+    coffeeImg2.style.opacity = '1'; // Show new image
+    coffeeImg2.style.animation = 'spew-out 1s ease-in-out forwards';
+
+    // Hide coffeeImg2 after 3000 milliseconds (3 seconds)
+    setTimeout(() => {
+      coffeeImg2.style.opacity = '0';
+      coffeeImg2.style.animation = '';
+    }, 3000);
+
+    clickCount = 0; // Reset click count to repeat the animation on subsequent clicks
+  }
+});
+
+
+
+
+
+    </script>
+
+
+   
+
+</section>
+
+</body>
+
+</html>

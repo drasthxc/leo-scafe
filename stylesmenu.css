@@ -1,0 +1,641 @@
+
+
+/* mobile */
+
+
+
+
+
+
+.topnav {
+  overflow: hidden;
+  background-color: rgb(141, 82, 82);
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: rgb(164, 98, 98);
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+
+
+
+
+.circle{
+
+    display: none;
+}
+
+
+
+
+
+
+header .logo{
+
+    display: none;
+        
+    }
+    
+    body {
+
+        background: url(brown3.jpg) no-repeat;
+        background-size: cover;
+    
+    
+    }
+
+
+#mobile_menu{
+    display: block;
+    
+}
+
+#menu_row{
+    flex-wrap: wrap;
+    padding: 0 10px 0 10px;
+  margin: auto;  
+    
+}
+
+
+
+
+#menu{
+
+  padding-top: 12%;
+  color: #333;
+  text-align: center;
+  padding-bottom: 20%;
+  font-size: 40px;
+  margin: auto;
+}
+
+
+
+
+
+#menu3{
+  padding: 25px;
+  padding-top: 50px; 
+  
+  
+  }
+  
+  #section{
+      padding: 150px 0 25px 0;
+      text-align: center;
+      font-size: 2rem;
+      font-family: verdana;
+      
+  }
+  
+  #menu_row{
+      display: flex;
+      padding: 0 100px 0 100px;
+      
+  }
+  
+  #menu_col{
+  
+      box-shadow: 2px 2px 2px #bbb;
+      border: 1px solid #5e5050;
+      background-color: #fff;
+      margin: 10px;
+ 
+      padding: 10px;
+      flex: 1;
+      z-index: 4;
+      translate: -70px -20px;   
+    
+  }
+  
+  #menu_col h2{
+  
+      background-color: red;
+      color: #fff;
+      text-align: center;
+      padding: 5px;
+      font-family: sans-serif;
+  
+  }
+  
+  #image{
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      padding: 5px;
+      border: 2px;
+  
+  }
+  
+  #image img {
+  
+  
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;
+      object-fit: cover;
+  
+  }
+  
+  .box{
+  
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      margin: auto;
+    
+      
+  
+  }
+  
+  
+
+
+
+
+
+
+
+  
+
+/*ipad mini*/
+@media only screen and (min-width: 768px ) {
+   
+
+
+
+
+
+
+  .topnav {
+    overflow: hidden;
+    background-color: rgb(141, 82, 82);
+  }
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: rgb(164, 98, 98);
+    color: white;
+  }
+  
+  .topnav .icon {
+    display: none;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+  }
+  
+  
+  
+  
+  
+  .circle{
+  
+      display: none;
+  }
+  
+  
+  
+  
+  
+  
+  header .logo{
+  
+      display: none;
+          
+      }
+      
+      body {
+  
+          background: url(brown3.jpg) no-repeat;
+          background-size: cover;
+      
+      
+      }
+  
+  
+  #mobile_menu{
+      display: block;
+      
+  }
+  
+  #menu_row{
+      flex-wrap: wrap;
+      padding: 0 10px 0 10px;
+    margin: auto;  
+      
+  }
+  
+  
+  
+  
+  #menu{
+  
+    padding-top: 12%;
+    color: #333;
+    text-align: center;
+    padding-bottom: 20%;
+    font-size: 40px;
+    margin: auto;
+  }
+  
+  
+  
+  
+  
+  #menu3{
+    padding: 25px;
+    padding-top: 50px; 
+    
+    
+    }
+    
+    #section{
+        padding: 150px 0 25px 0;
+        text-align: center;
+        font-size: 2rem;
+        font-family: verdana;
+        
+    }
+    
+    #menu_row{
+        display: flex;
+        padding: 0 100px 0 100px;
+        
+    }
+    
+    #menu_col{
+    
+        box-shadow: 2px 2px 2px #bbb;
+        border: 1px solid #5e5050;
+        background-color: #fff;
+        margin: 10px;
+   
+        padding: 10px;
+        flex: 1;
+        z-index: 4;
+        translate: 10px -20px;      
+   
+        
+    }
+    
+    #menu_col h2{
+    
+        background-color: red;
+        color: #fff;
+        text-align: center;
+        padding: 5px;
+        font-family: sans-serif;
+    
+    }
+    
+    #image{
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        padding: 5px;
+        border: 2px;
+    
+    }
+    
+    #image img {
+    
+    
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        object-fit: cover;
+    
+    }
+    
+    .box{
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin: auto;
+        
+    
+    }
+    
+    
+  
+  
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+/* comp */
+
+@media only screen and (min-width: 1024px ) {
+    
+
+@import url('https://fonts.googleapis.com css?family= Poppins: 200,300,400,500, 600, 700,800, 900&display=swap');
+*
+
+{
+
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Poppins', sans-serif;
+
+ }
+
+
+
+
+
+ .topnav {
+    overflow: hidden;
+    background-color: rgb(141, 82, 82);
+  }
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 24px 30px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: rgb(164, 98, 98);
+    color: white;
+  }
+  
+  .topnav .icon {
+    display: none;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+  }
+
+
+
+
+
+
+header
+{
+position: fixed;
+top: 0;
+Left: 0;
+right: 0;
+width: 100%;
+padding: 20px 100px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: #ddadaf;
+z-index: 9;
+}
+
+header .logo
+{
+position: relative;
+max-width: 100px;
+display: block;
+
+}
+
+
+header ul
+{
+
+position: relative; 
+display: flex;
+}
+
+header ul li
+{
+ List-style: none;
+}
+
+header ul li a
+{
+display: inline-block;
+color: #333;
+font-weight: 400; 
+margin-left: 40px; 
+text-decoration: none;
+}
+
+
+
+
+
+.circle
+{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: brown;
+    clip-path: circle(600px at right 800px);
+    display: block;
+
+
+}
+
+    
+}
+
+
+
+#menu3{
+padding: 25px;
+padding-top: 50px; 
+
+
+}
+
+#section{
+    padding: 150px 0 25px 0;
+    text-align: center;
+    font-size: 2rem;
+    font-family: verdana;
+    
+}
+
+#menu_row{
+    display: flex;
+    padding: 0 100px 0 100px;
+}
+
+#menu_col{
+
+    box-shadow: 2px 2px 2px #bbb;
+    border: 1px solid #bbb;
+    background-color: #fff;
+    margin: 10px;
+    padding: 10px;
+    flex: 1;
+    z-index: 4;
+    
+}
+
+#menu_col h2{
+
+    background-color: red;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+    font-family: sans-serif;
+
+}
+
+#image{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    padding: 5px;
+    border: 2px;
+
+}
+
+#image img {
+
+
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+
+}
+
+.box{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 5px;
+    
+
+}
+
+#menu{
+
+
+padding-bottom: 90px;
+font-size: 60px;
+color: #000000;
+
+}

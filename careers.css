@@ -1,0 +1,681 @@
+
+
+
+/* mobile*/
+
+
+
+.topnav {
+    overflow: hidden;
+    background-color: #764223;
+  }
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #A87B61;
+    color: white;
+  }
+  
+  .topnav .icon {
+    display: none;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+  }
+
+header .logo{
+
+    display: none;
+        
+    }
+    
+
+.content{
+
+    width: 100%;
+}
+
+.circle{
+
+    display: none;
+}
+
+.textBox{
+
+width: auto;
+display: flex;
+flex-wrap: wrap;
+
+}
+
+.textBox h2{
+
+margin: auto;
+    font-size: 50px;
+    line-height: 54px;
+    color: #8A4F2D;
+
+
+
+}
+
+
+body {
+
+  background-color: #3F1D07;
+
+}
+.textBox p{
+
+    padding: 0px 10px 10px;
+    font-size: 16px;
+    color: #000000;
+    line-height: 24px;
+    margin-left: 10px
+
+
+}
+
+
+
+
+.content .textBox h2 span
+ {
+
+    color: brown;
+    font-size: 1em;
+    font-weight: 700;
+
+ }
+
+.coffee img{
+
+    display: none;
+}
+
+.imgbox img{
+
+    display: none;
+}
+
+
+.coffee li{
+
+    display: none;
+}
+
+
+
+
+
+
+
+
+    
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #954535;
+  color: white;
+  padding: 15px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #6c3226;
+}
+
+input[type=file] {
+  width: 100%;
+  background-color: #954535;
+  color: white;
+  padding: 15px 0px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form3 {
+  border-radius: 5px;
+  background-color: #DEAB90;
+  padding: 40px;
+  max-width: 100%;
+  width: 800px;
+  margin-top: 15px;
+}
+
+
+.content .textBox h1 {
+
+margin: auto;
+  font-size: 30px;
+  line-height: 54px;
+  color: #8A4F2D;
+  
+  padding-bottom: 30px;
+
+
+}
+
+
+.content .textBox p
+{
+color: #000000;
+font-size: 25px;
+margin-left: 5px;
+margin-bottom: 25px;
+margin-top: 2px;
+border-radius: 5px;
+background-color: #DEAB90;
+padding: 15px;
+
+
+}
+
+
+/*ipad mini*/
+@media only screen and (min-width: 768px ) {
+   
+
+
+  .topnav {
+    overflow: hidden;
+    background-color: #764223;
+  }
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color:#A87B61;
+    color: white;
+  }
+  
+  .topnav .icon {
+    display: none;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+  }
+
+header .logo{
+
+    display: none;
+        
+    }
+    
+
+.content{
+
+    width: 100%;
+}
+
+.circle{
+
+    display: none;
+}
+
+.textBox{
+
+width: auto;
+display: flex;
+flex-wrap: wrap;
+
+}
+
+.textBox h2{
+
+    padding-top: 50px;
+    text-align: center;
+    font-size: 50px;
+    line-height: 54px;
+    width: 100%;
+    margin-bottom: 50px;
+
+
+}
+
+
+body {
+
+ 
+  background-color: #3F1D07;
+
+}
+
+
+.content .textBox p
+{
+color: #000000;
+font-size: 25px;
+margin-left: 20px;
+margin-bottom: 20px;
+margin-top: 2px;
+border-radius: 5px;
+background-color: #DEAB90;
+padding: 15px;
+
+
+}
+
+ 
+.content .textBox h1 {
+
+  margin: auto;
+    font-size: 30px;
+    line-height: 54px;
+    color: #8A4F2D;
+  
+  
+  }
+
+.content .textBox h2 span
+ {
+
+    color: brown;
+    font-size: 1em;
+    font-weight: 700;
+    
+
+ }
+
+
+ 
+
+.coffee img{
+
+    display: none;
+}
+
+.imgbox img{
+
+    display: none;
+}
+
+
+.coffee li{
+
+    display: none;
+}
+
+.social img{
+
+display: none;
+
+}
+
+
+
+    
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #954535;
+  color: white;
+  padding: 15px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #6c3226;
+}
+
+input[type=file] {
+  width: 100%;
+  background-color: #954535;
+  color: white;
+  padding: 15px 0px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form3 {
+  border-radius: 5px;
+  background-color: #DEAB90;
+  padding: 40px;
+  max-width: 100%;
+  width: 800px;
+  margin-top: 15px;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+/* comp */
+@media only screen and (min-width: 1024px ) {
+    
+
+@import url('https://fonts.googleapis.com css?family= Poppins: 200,300,400,500, 600, 700,800, 900&display=swap');
+*
+
+{
+
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Poppins', sans-serif;
+
+ }
+
+
+
+
+ .content .textBox h1 {
+
+  margin: auto;
+    font-size: 30px;
+    line-height: 54px;
+    color: #8A4F2D;
+    padding-bottom: 20px;
+  
+  
+  }
+
+
+Section 
+ {
+
+position: relative;
+width: 100%;
+min-height: 100vh; 
+padding: 100px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+background:  url(brown1.jpg) no-repeat;
+background-size: cover;
+
+ }
+
+
+
+
+ 
+header
+{
+position: fixed;
+top: 0;
+Left: 0;
+right: 0;
+width: 100%;
+padding: 5px 100px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: #764223;
+z-index: 8;
+
+}
+
+header .logo
+{
+position: relative;
+max-width: 100px;
+display: block;
+}
+
+
+
+ 
+
+.topnav {
+    overflow: hidden;
+    background-color: #523624;
+  }
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 24px 30px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color:#A87B61;
+    color: white;
+  }
+  
+  .topnav .icon {
+    display: none;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+  }
+
+
+
+
+
+
+.content{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.content .textBox
+{
+    position: relative;
+    max-width: 600px;
+    padding-top: 50px;
+  
+}
+
+.content .textBox h2
+{
+color: #8A4F2D;
+font-size: 4em;
+Line-height: 1.4em;
+ font-weight: 500;
+
+
+}
+
+.content .textBox h2 span
+ {
+
+    color: brown;
+    font-size: 1.2em;
+    font-weight: 700;
+
+ }
+
+
+ .textBox h2{
+
+  padding: 50px 20px 40px;
+
+
+
+}
+
+
+.content .textBox p
+{
+color: #000000;
+font-size: 25px;
+margin-left: 20px;
+margin-bottom: 20px;
+margin-top: 2px;
+border-radius: 5px;
+background-color: #DEAB90;
+padding: 15px;
+
+
+}
+
+
+
+.content .imgbox
+{
+
+    width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    padding-left: 180px;
+    padding-top: 80px;
+    
+
+
+}
+
+.content .imgbox img
+{
+    height: 550px;
+    width: 400px;
+    max-width: 500px;
+    display: block;
+
+}
+
+
+
+
+.circle
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: brown;
+    clip-path: circle(600px at right 800px);
+    display: block;
+
+
+}
+
+
+    
+}
