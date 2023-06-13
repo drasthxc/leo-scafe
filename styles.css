@@ -245,6 +245,7 @@ h2 {
   color: white;
 }
     
+    
 
 /*ipad mini*/
 @media only screen and (min-width: 768px ) {
@@ -411,7 +412,7 @@ transform: translate(100px,100px);
   font-size: 20px;
   color: white;
 }
-    
+        
 
 
 }
@@ -783,6 +784,6 @@ h2 {
   font-size: 20px;
   color: white;
 }
-    
+       
     
 }
