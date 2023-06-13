@@ -222,6 +222,30 @@ h2 {
 }
 
 
+.chatButton {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #1C1F25;
+  color: #fff;
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  z-index: 9999;
+  transition: background-color 0.3s ease;
+}
+
+.chatButton:hover {
+  background-color: #37404F;
+}
+
+.chatButton i {
+  font-size: 20px;
+  color: white;
+}
+    
+
 /*ipad mini*/
 @media only screen and (min-width: 768px ) {
    
@@ -365,7 +389,29 @@ transform: translate(100px,100px);
     display: block;
 }
 
+.chatButton {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #1C1F25;
+  color: #fff;
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  z-index: 9999;
+  transition: background-color 0.3s ease;
+}
 
+.chatButton:hover {
+  background-color: #37404F;
+}
+
+.chatButton i {
+  font-size: 20px;
+  color: white;
+}
+    
 
 
 }
@@ -715,6 +761,28 @@ h2 {
   position: relative;
 }
 
+.chatButton {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #1C1F25;
+  color: #fff;
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  z-index: 9999;
+  transition: background-color 0.3s ease;
+}
 
+.chatButton:hover {
+  background-color: #37404F;
+}
+
+.chatButton i {
+  font-size: 20px;
+  color: white;
+}
+    
     
 }
